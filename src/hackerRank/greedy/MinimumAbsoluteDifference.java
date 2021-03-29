@@ -3,15 +3,15 @@ package hackerRank.greedy;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Arrays;
 
 public class MinimumAbsoluteDifference {
     static int solution(int[] arr) {
+        Arrays.sort(arr);
         int deff = Integer.MAX_VALUE;
 
-        for(int i = 0; i < arr.length; i++) {
-            for(int j = i + 1; j < arr.length; j++) {
-                deff = Math.min(deff, Math.abs(arr[i] - arr[j]));
-            }
+        for(int i = 0; i < arr.length - 1; i++) {
+            deff = Math.min(deff, Math.abs(arr[i] - arr[i + 1]));
         }
 
         return deff;
