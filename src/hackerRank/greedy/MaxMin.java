@@ -28,17 +28,18 @@ public class MaxMin {
 
         System.out.println(solution(k, arr));
     }
-
-    // input
-    // 7
-    // 3
-    // 10
-    // 100
-    // 300
-    // 200
-    // 1000
-    // 20
-    // 30
-    // output
-    // 20
 }
+/*
+input
+7
+3
+10
+100
+300
+200
+1000
+20
+30
+output
+20
+*/
