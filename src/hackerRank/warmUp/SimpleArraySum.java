@@ -1,4 +1,4 @@
-package hackerRank;
+package hackerRank.warmUp;
 
 import java.io.IOException;
 

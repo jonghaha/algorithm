@@ -1,4 +1,4 @@
-package hackerRank;
+package hackerRank.warmUp;
 
 public class PlusMinus {
     static void solution(int[] arr) {

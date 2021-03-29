@@ -1,4 +1,4 @@
-package hackerRank;
+package hackerRank.implementation;
 
 public class BreakingTheRecords {
     static int[] solution(int[] scores) {
