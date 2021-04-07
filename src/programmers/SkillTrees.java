@@ -1,6 +1,7 @@
 package programmers;
 
-public class skillTrees {
+// 스킬트리
+public class SkillTrees {
     static int solution(String skill, String[] skill_trees) {
         int answer = 0;
 
