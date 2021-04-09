@@ -4,7 +4,7 @@ import java.util.Collections;
 import java.util.PriorityQueue;
 
 public class Printer {
-    public int solution(int[] priorities, int location) {
+    static int solution(int[] priorities, int location) {
         int answer = 1;
 
         PriorityQueue priority = new PriorityQueue<>(Collections.reverseOrder());
@@ -29,6 +29,14 @@ public class Printer {
     }
 
     public static void main(String[] args) {
+        // return 1
+//        int[] priorities = {2, 1, 3, 2};
+//        int location = 2;
 
+        // return 5
+        int[] priorities = {1, 1, 9, 1, 1, 1};
+        int location = 0;
+
+        System.out.println(solution(priorities, location));
     }
 }
