@@ -2,6 +2,7 @@ package programmers;
 
 import java.util.PriorityQueue;
 
+// 더 맵게
 public class Spicier {
     static int solution(int[] scoville, int K) {
         int answer = 0;

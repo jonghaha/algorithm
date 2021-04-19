@@ -2,6 +2,7 @@ package programmers;
 
 import java.util.Stack;
 
+// 크레인 인형 뽑기
 public class CraneDolls {
     static int solution(int[][] board, int[] moves) {
         int answer = 0;

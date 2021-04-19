@@ -3,6 +3,7 @@ package programmers;
 import java.util.Collections;
 import java.util.PriorityQueue;
 
+// 프린터
 public class Printer {
     static int solution(int[] priorities, int location) {
         int answer = 1;
